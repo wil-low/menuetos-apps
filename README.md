@@ -14,15 +14,14 @@ MenuetOS is a lightweight, GUI-based operating system written entirely in assemb
 
 ### 🎲 `15`
 **Classic Lloyd's Puzzle Game**  
-- Sliding tile puzzle implementation with basic GUI  
-- Written with native MenuetOS windowing system
+- Sliding tile puzzle implementation with basic GUI
 
 ---
 
 ### 📦 `SOKOBAN`
 **Box-pushing Puzzle Game**  
 - A Sokoban clone similar to classic Unix/Linux versions  
-- Supports keyboard controls and custom levels
+- Supports custom levels
 
 ---
 
@@ -45,7 +44,6 @@ MenuetOS is a lightweight, GUI-based operating system written entirely in assemb
 ### 🗓 `CALENDAR`
 **Multilingual Desktop Calendar**  
 - Displays Gregorian calendar with localization support  
-- Integrates BGIFONT for scalable text rendering
 
 ---
 
@@ -60,14 +58,12 @@ MenuetOS is a lightweight, GUI-based operating system written entirely in assemb
 ### 🎵 `MIDAMP`
 **MIDI Player (PC Speaker)**  
 - Plays monophonic MIDI (.MID) files via PC speaker  
-- No sound card required; supports tempo and note duration
 
 ---
 
 ### 🧮 `MEFORTH`
 **Forth Interpreter: 86eForth 2.02 Port**  
 - Port of 86eForth to MenuetOS  
-- Implements a full Forth REPL environment for scripting
 
 ---
 
@@ -75,9 +71,6 @@ MenuetOS is a lightweight, GUI-based operating system written entirely in assemb
 **Deflate Archive Extractor**  
 - Unpacks `.ZIP`, `.GZ`, and `.PNG` files  
 - Custom DEFLATE implementation in pure assembly  
-- Can serve as a base for file viewers or loaders
-
-Here’s the updated `README.md` section with the **MEGAMAZE** application included, highlighting its role as a game framework and emphasizing its extensibility and diversity:
 
 ---
 
@@ -87,36 +80,11 @@ Here’s the updated `README.md` section with the **MEGAMAZE** application inclu
 
 * A modular game engine for grid-based logic and puzzle games
 * Includes 13 mini-games: mazes, chase games, line-pushing puzzles, switch toggles, timed movement traps, and more
-* Acts as a sandbox for game logic experimentation under MenuetOS constraints
 
 **Highlights:**
 
 * Shared game loop and input handling across all variants
 * Extensible architecture — new puzzle types can be added by modifying game state functions
-
----
-
-## 🛠 Build Instructions
-
-These programs are designed for **MenuetOS/KolibriOS**. You’ll need:
-
-- [FASM](https://flatassembler.net/)
-- A MenuetOS image or VM (Bochs, QEMU, or real hardware)
-- Some apps may need file paths or font files placed in expected folders
-
-```bash
-fasm calendar.asm calendar
-````
-
-Place compiled binaries into the `FD` or `HD` image and run from the MenuetOS desktop.
-
----
-
-## 📜 License
-
-This repository is shared for archival and educational purposes. Contact the author for reuse beyond personal exploration.
-
----
 
 ## 🧠 Historical Note
 
